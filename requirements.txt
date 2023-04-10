@@ -6,3 +6,4 @@ sanic==22.6.2
 accelerate
 transformers
 git+https://github.com/huggingface/diffusers.git
+websockets==10.0
