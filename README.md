@@ -1,14 +1,14 @@
+# My Potassium App
+This is a Potassium HTTP server, created with `banana init` CLI
 
-# 🍌 Banana Serverless instruct pix2pix
+### Testing
+Start a local dev server with `banana dev`
 
-Mandatory inputs:
- - prompt: string
- - image: base64 image string (needs to be max 512x512)
-  
-Optional:
- - image_guidance: float default to 1.5
- - guidance_scale: float default to 7.5
- - negative_prompt: string default to None
- 
- Returns:
- base64 image string
+### Deployment
+1. Create empty repo on [Github](https://github.com)
+2. Push this repo to github
+```
+git remote add origin https://github.com/{username}/{repo-name}.git
+```
+3. [Log into Banana](https://app.banana.dev/onboard)
+4. Select this repo to build and deploy!
